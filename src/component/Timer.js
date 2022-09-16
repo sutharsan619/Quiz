@@ -10,7 +10,7 @@ const Timer = ({setStop,questionNumber}) => {
     } 
      const interval= setInterval (()=>{
         setTimer((prev)=>prev -1)
-     },1000)
+     },2000)
 
      return () =>clearInterval(interval)
      
